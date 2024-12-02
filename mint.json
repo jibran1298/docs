@@ -47,7 +47,9 @@
         {
           "group": "Integration",
           "pages": [
-            "onboarding/woocommerce/installation"
+            "onboarding/overview",
+            "onboarding/woocommerce/installation",
+            "onboarding/shopify/installation"
           ]
         }
 

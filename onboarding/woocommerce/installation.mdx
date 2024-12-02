@@ -1,71 +1,78 @@
 ---
-title: Woocommerce
-description: 'Welcome to the home of your new documentation'
+title: WooCommerce Installation
+description: "Step-by-step guide to install and configure Gale Payments for WooCommerce"
 ---
 
 <img
   className="block dark:hidden"
-  src="/images/hero-light.svg"
-  alt="Hero Light"
+  src="/images/woocommerce-light.svg"
+  alt="WooCommerce Light"
 />
 <img
   className="hidden dark:block"
-  src="/images/hero-dark.svg"
-  alt="Hero Dark"
+  src="/images/woocommerce-dark.svg"
+  alt="WooCommerce Dark"
 />
 
-## Setting up
+# WooCommerce Installation Guide
 
-The first step to world-class documentation is setting up your editing environments.
+This guide will walk you through the process of installing and configuring Gale Payments on your WooCommerce store, enabling HSA/FSA payments for your customers.
 
-<CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
-  >
-    Get your docs set up locally for easy development
-  </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
-    Preview your changes before you push to make sure they're perfect
-  </Card>
-</CardGroup>
+## Prerequisites
 
-## Make it yours
+Before you begin, ensure the following:
+- **WooCommerce Plugin Installed**: Your WordPress store must have the WooCommerce plugin installed and activated.
+- **Gale Payments Plugin**: You should have received the Gale Payments plugin zip file during your signup process.
 
-Update your docs to your brand and add valuable content for the best user conversion.
+---
 
-<CardGroup cols={2}>
-  <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
-  >
-    Customize your docs to your company's colors and brands
-  </Card>
-  <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
-    Automatically generate endpoints from an OpenAPI spec
-  </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/components/accordion"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/customers"
-  >
-    Check out our showcase of our favorite documentation
-  </Card>
-</CardGroup>
+## Installation Steps
+
+### 1. Upload the Gale Payments Plugin
+- Navigate to your WordPress Admin Panel.
+- Go to `Plugins > Add New > Upload Plugin`.
+- Click `Choose File`, select the Gale Payments plugin zip file, and click `Install Now`.
+
+### 2. Activate the Plugin
+- Once the installation is complete, click `Activate Plugin`.
+
+### 3. Configure Gale Payments Settings
+- Navigate to `WooCommerce > Settings > Payments`.
+- Locate the **Gale Payments** option and click `Manage`.
+- Enter your **API Key** provided during signup.
+- Enable **Test Mode** to verify functionality before going live.
+
+---
+
+## Testing the Integration
+
+1. Add a product to your WooCommerce store.
+2. Proceed to checkout and select **Pay with HSA/FSA**.
+3. Complete a test transaction using test credentials provided by Gale Payments.
+4. Verify the transaction appears in your WooCommerce orders.
+
+---
+
+## Go Live
+
+1. Once testing is successful, go back to the Gale Payments settings.
+2. Uncheck the **Test Mode** option.
+3. Save your changes. Your customers can now make payments using their HSA/FSA cards!
+
+---
+
+## Troubleshooting
+
+- **Plugin Not Visible**: Ensure WooCommerce is installed and updated to the latest version.
+- **API Key Issues**: Double-check your API Key for accuracy.
+- **Test Mode Transactions Failing**: Ensure you are using valid test credentials provided by Gale Payments.
+
+---
+
+## Need Help?
+
+If you encounter any issues, contact our support team at [support@galepayments.com](mailto:support@galepayments.com). We're here to help!
+
+---
+
+By completing these steps, your WooCommerce store is now fully equipped to accept HSA/FSA payments with Gale Payments!
