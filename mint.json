@@ -47,7 +47,7 @@
         {
           "group": "Integration",
           "pages": [
-            "onboarding/woocommerce"
+            "onboarding/woocommerce/installation"
           ]
         }
 
