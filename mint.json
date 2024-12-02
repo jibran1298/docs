@@ -45,7 +45,7 @@
       "pages": [
         "introduction",
         {
-          "group": "Installation",
+          "group": "Integration",
           "pages": [
             "onboarding/overview",
             "onboarding/woocommerce/installation",
