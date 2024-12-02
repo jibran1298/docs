@@ -29,11 +29,6 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://docs.withgale.com"
-    },
-    {
       "name": "Support",
       "icon": "envelope",
       "url": "mailto:support@withgale.com"
