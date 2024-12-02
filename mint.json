@@ -50,7 +50,13 @@
       "pages": [
         "introduction",
         "quickstart",
-        "development"
+        {
+          "group": "onboarding",
+          "pages": [
+            "onboarding/woocommerce"
+          ]
+        }
+
       ]
     },
     {
