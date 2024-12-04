@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Docs",
   "logo": {
-    "dark": "/logo/darkgale.svg",
-    "light": "/logo/lightgale.svg"
+    "dark": "/logo/galedark.svg",
+    "light": "/logo/galelight.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
