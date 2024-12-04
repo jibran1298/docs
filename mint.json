@@ -3,7 +3,7 @@
   "name": "Docs",
   "logo": {
     "dark": "/logo/galedark.svg",
-    "light": "/logo/galelight.svg"
+    "light": "/logo/galelight.png"
   },
   "favicon": "/favicon.png",
   "colors": {
