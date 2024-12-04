@@ -31,13 +31,23 @@
     {
       "group": "Get Started",
       "pages": [
+        
         "introduction",
         {
-          "group": "Integration",
+          "group": "Introduction",
           "pages": [
             "onboarding/overview",
+            "onboarding/hsafsa",
+            "onboarding/onboarding"
+          ]
+        },
+        {
+          "group": "Integrations",
+          "pages": [
             "onboarding/woocommerce/installation",
-            "onboarding/shopify/installation"
+            "onboarding/shopify/installation",
+             "onboarding/magento/installation",
+              "onboarding/bigcommerce/installation"
           ]
         }
 
