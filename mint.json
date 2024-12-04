@@ -17,8 +17,8 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:support@withgale.com"
+      "name": "Login",
+      "url": "https://www.withgale.com/login"
     }
   ],
   "topbarCtaButton": {
@@ -26,13 +26,6 @@
     "url": "https://www.withgale.com/signup"
   },
   "tabs": [
-  ],
-  "anchors": [
-    {
-      "name": "Support",
-      "icon": "envelope",
-      "url": "mailto:support@withgale.com"
-    }
   ],
   "navigation": [
     {
