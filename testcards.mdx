@@ -1,0 +1,31 @@
+---
+title: Test Cards
+---
+
+
+
+When testing the integration With Gale Payments, you can use the following test card details. These cards simulate different scenarios, such as successful transactions, declined cards, and more.
+
+### General Instructions
+
+- Use any **future date** for the card's expiration date (e.g., `12/34`).
+- Use any **3-digit CVC**
+- Use any valid ZIP code (e.g., `12345`).
+
+### Test Cards
+
+| Card Number       | Card Type         | Scenario                                   |
+|-------------------|-------------------|-------------------------------------------|
+| `4242 4242 4242 4242` | Visa              | Payment succeeds                          |
+| `4000 0000 0000 9995` | Visa              | Insufficient funds  |
+| `4000 0000 0000 0002` | Visa              | Generic decline                        |
+| `5555 5555 5555 4444` | Mastercard        | Payment succeeds                          |
+| `4000 0000 0000 0127` | Visa              | Invalid CVC                               |
+
+
+
+### Notes
+
+- These test cards will only work in the **test environment**. Attempting to use them in **production** will result in an error.
+
+If you encounter any issues during testing, feel free to reach out to our support team at support@withgale.com 

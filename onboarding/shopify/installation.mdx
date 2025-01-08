@@ -1,19 +1,193 @@
 ---
 title: Shopify 
-icon : shopify
+icon: shopify
 ---
 
-The Gale Payments plugin for Shopify is coming soon! 
-
-Our dedicated Shopify app will allow merchants to seamlessly integrate HSA/FSA payment options into their Shopify stores. Customers will be able to select Gale Payments during checkout for a smooth and compliant payment experience.
-
-## What to Expect
-
-- **Easy Setup**: A user-friendly installation process for Shopify merchants.
-- **HSA/FSA Support**: Enable your customers to pay with their HSA/FSA cards.
-- **Compliance Ready**: Built-in compliance with regulatory standards.
-
-Stay tuned for updates and release announcements. If you’d like to be notified when the Shopify plugin is available, please contact us at [support@withgale.com](mailto:support@withgale.com).
+This guide will walk you through the process of installing and configuring Gale Payments on your Shopify store, enabling HSA/FSA payments for your customers.
 
 ---
-Looking for an immediate solution? Check out our [WooCommerce Installation Guide →](onboarding/woocommerce/installation).
+
+## Prerequisites
+
+Before you begin, ensure the following:
+- **Shopify Admin Access**: You have administrative access to your Shopify store.
+- **Gale Payments API Key**: You received your API Key during the Gale Payments onboarding process.
+
+---
+
+## Installation Steps
+
+<Steps>
+  <Step title="Install the Gale Payments App">
+    1. Install the Gale HSA & FSA Payments App
+    2. Follow the prompts to add the payments app to your store.
+
+    <img
+      className="block"
+      src="/images/shopify_install.png"
+      alt="Install Gale Payments App"
+    />
+  </Step>
+
+  <Step title="Enter Store Details and API Key">
+    1. After installing the app, you will be redirected to Configure Gale Payments App
+    2. Enter your **Store Name** and **API Key** provided during onboarding.
+
+    <img
+      className="block"
+      src="/images/shopify_configure.png"
+      alt="Install Gale Payments App"
+    />
+
+    3. **Save** your settings.
+
+     <img
+      className="block"
+      src="/images/shopify_return.png"
+      alt="Install Gale Payments App"
+    />
+
+    4. Click **Return to Shopify**.
+
+  </Step>
+
+  <Step title="Configure Gale Payments in Shopify">
+    1. Go to **Shopify Admin > Settings > Payments**.
+    2. Click **Add Payment Method**.
+    3. Select **Search by Provider** and type **"Gale"**.
+
+     <img
+      className="block"
+      src="/images/shopify_search.png"
+      alt="Install Gale Payments App"
+    />
+
+    4. Choose **Gale HSA & FSA Payments** from the list.
+
+     <img
+      className="block"
+      src="/images/shopify_activate.png"
+      alt="Install Gale Payments App"
+    />
+
+
+    5. Enable **Test Mode** and click **Activate**.
+
+   
+  </Step>
+
+  <Step title="Setup Gale  Pixel ">
+    1. Go to **Shopify Admin > Settings > Customer Events**.
+    2. Click **Add Custom Pixel**.
+    3. Enter Pixel Name **"Gale Pixel"**.
+
+     <img
+      className="block"
+      src="/images/shopify_add_pixel.png"
+      alt="Add Gale Pixel "
+    />
+
+    4. Enter **Pixel Code** Provided during Onboarding and click **Connect** to save.
+
+     <img
+      className="block"
+      src="/images/shopify_pixel_code.png"
+      alt="Add Gale Pixel Code"
+    />
+
+ <img
+      className="block"
+      src="/images/shopify_pixel_status.png"
+      alt="Add Gale Pixel Code"
+    />
+  
+    5. Make sure the Pixel status is **Connected**. 
+
+    
+
+
+
+
+  </Step>
+
+  <Step title="Test the Integration">
+    1. Go to your store and add a product to the cart.
+    2. Proceed to checkout and select **Gale HSA & FSA Payments** as the payment method.
+
+     <img
+      className="block"
+      src="/images/shopify_checkout.png"
+      alt="Gale Checkout "
+    />
+
+
+    3. Use one of the [Test Cards](/testcards) for the transaction.
+
+ <img
+      className="block"
+      src="/images/shopify_journey.png"
+      alt="Gale Checkout Journey"
+    />
+
+    4. Verify the **order** and **payment status** in your Shopify Admin to ensure that test transaction is successful.
+
+    
+  </Step>
+
+  <Step title="Go Live">
+    1. Return to the Gale Payments app in your Shopify Admin.
+    2. Disable **Test Mode** in the settings.
+
+     <img
+      className="block"
+      src="/images/shopify_production.png"
+      alt="Disable Test Mode "
+    />
+
+    3. **Save** your changes and you are ready to accept **HSA & FSA** cards using Gale Payments.
+
+   
+  </Step>
+</Steps>
+
+---
+
+## Resources 
+
+<CardGroup cols={2}>
+  
+  <Card
+    title="Test Cards "
+    icon="credit-card"
+    href="/testcards"
+  >
+    Use these cards only when **Test Mode** is actiavted.
+  </Card>
+
+  <Card
+    title="Gale HSA & FSA Eligibility"
+    icon="shopify"
+    href="eligibilityinstallation"
+  >
+    Install **Gale HSA & FSA Eligibility** app for onsite product messaging. 
+  </Card>
+
+</CardGroup>
+
+---
+
+## Troubleshooting
+
+- **App Not Visible**: Ensure the Gale Payments app is installed and activated in your Shopify Admin.
+- **API Key Issues**: Double-check your API Key for accuracy.
+- **Test Transactions Failing**: Confirm you are using valid [ Test Cards](/testcards).
+
+---
+
+## Need Help?
+
+If you encounter any issues, contact our support team at [support@withgale.com](mailto:support@withgale.com). We're here to help!
+
+---
+
+By completing these steps, your Shopify store is now fully equipped to accept HSA/FSA payments with Gale Payments!
